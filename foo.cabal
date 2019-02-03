@@ -1,0 +1,11 @@
+cabal-version: 2.4
+name: foo
+version: 1
+extra-source-files:
+  "foo \\ bar"
+
+library
+  default-language: Haskell2010
+  exposed-modules: Foo
+  build-depends: base
+
